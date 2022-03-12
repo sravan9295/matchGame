@@ -1,0 +1,50 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+.image-to-be-matched {
+  width: 50vh;
+}
+
+.tabs-container {
+}
+.tabs-ul-list {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.tab-selected {
+  color: blue;
+}
+.thumbnails-container {
+  width: 80vw;
+}
+
+.thumbnails-ul-list {
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumbnail {
+  margin: 0.5em;
+
+  width: 12vw;
+}

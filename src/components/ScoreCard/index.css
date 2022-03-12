@@ -1,0 +1,29 @@
+.score-card-container {
+  height: 50vh;
+  width: 50vw;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+}
+.score-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trophy {
+  margin-top: 5em;
+  height: 10vh;
+}
+.play-again {
+  background-color: blue;
+}

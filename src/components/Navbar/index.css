@@ -1,0 +1,45 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #2c0e3a;
+
+  height: 3rem;
+}
+.logo {
+  height: 2rem;
+}
+.navbar-right-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-size: 2rem;
+}
+.score-and-seconds {
+  color: #fec653;
+  font-size: x-large;
+}
+p {
+  color: white;
+}
+.right-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 1rem;
+}
+.timer-icon {
+  height: 1em;
+  margin-right: 10px;
+}
+.timer {
+}
+.timer-icon {
+  width: fit-content;
+}
