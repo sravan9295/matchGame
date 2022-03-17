@@ -48,3 +48,42 @@
 
   width: 12vw;
 }
+
+.score-card-container {
+  height: 50vh;
+  width: 50vw;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+}
+.score-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trophy {
+  margin-top: 5rem;
+  width: 20%;
+}
+.play-again {
+  background-color: blue;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-weight: 800;
+  font-size: 2rem;
+}

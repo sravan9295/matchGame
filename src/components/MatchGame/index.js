@@ -1,6 +1,5 @@
 /* eslint-disable prettier/prettier */
 import {Component} from 'react'
-import {v4} from 'uuid'
 import './index.css'
 
 import Navbar from '../Navbar'
@@ -334,8 +333,8 @@ class MatchGame extends Component {
             src="https://assets.ccbp.in/frontend/react-js/match-game-trophy.png"
             alt="trophy"
           />
-          <p>Your Score</p>
-          <p>{score}</p>
+          <p className="heading">Your Score</p>
+          <p className="heading">{score}</p>
           <button
             className="play-again"
             type="button"
@@ -389,12 +388,14 @@ class MatchGame extends Component {
               <ul className="thumbnails-ul-list">
                 {thumbnailsList.map(item => (
                   <li key={item.id}>
-                    <img
-                      className="thumbnail"
-                      src={item.thumbnailUrl}
-                      alt="thumbnail"
-                      onClick={() => this.onClickThumbnail(item.id)}
-                    />
+                    <button type="button">
+                      <img
+                        className="thumbnail"
+                        src={item.thumbnailUrl}
+                        alt="thumbnail"
+                        onClick={() => this.onClickThumbnail(item.id)}
+                      />
+                    </button>
                   </li>
                 ))}
               </ul>
